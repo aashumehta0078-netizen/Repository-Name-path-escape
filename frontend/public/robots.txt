@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# PLACEHOLDER — replace with the final live domain
+Sitemap: https://www.mansibeautycare.com/sitemap.xml

@@ -1,0 +1,151 @@
+{
+  "project_name": "Mansi Beauty Care - Luxury Ladies Salon Landing Page",
+  "archetype": "ARCHETYPE 1: ORGANIC & LUXURY WARMTH (Quiet Luxury Beauty Aesthetics)",
+  "target_audience": "Local women and brides-to-be in Zundal, Chandkheda, Motera, Vaishnodevi Circle, and Ahmedabad looking for premium beauty parlour, bridal makeup, hair care, nail art, and skin treatments",
+  "primary_conversion_action": "Direct instant booking and consultation via WhatsApp deep-linking and direct phone calling",
+  "theme": "light",
+  "typography": {
+    "font_family_heading": "'Playfair Display', 'Cormorant Garamond', serif",
+    "font_family_body": "'Plus Jakarta Sans', 'Outfit', sans-serif",
+    "font_family_accent": "'Bodoni Moda', serif",
+    "google_fonts_import": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..800;1,6..96,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+    "scale": {
+      "hero_title": "text-4xl sm:text-5xl lg:text-6xl font-serif tracking-tight leading-[1.12]",
+      "section_title": "text-2xl sm:text-3xl lg:text-4xl font-serif tracking-tight",
+      "subsection_title": "text-xl sm:text-2xl font-serif",
+      "card_title": "text-lg sm:text-xl font-medium",
+      "body_text": "text-base text-stone-600 leading-relaxed",
+      "badge_overline": "text-xs uppercase tracking-[0.22em] font-semibold text-rose-800"
+    }
+  },
+  "colors": {
+    "background_base": "#FDFBF7",
+    "background_secondary": "#F7F2EB",
+    "background_card": "#FFFFFF",
+    "primary_rose_gold": "#C58B7E",
+    "primary_rose_deep": "#A35C50",
+    "accent_gold": "#D4AF37",
+    "accent_champagne": "#F9F4EE",
+    "accent_sage_tint": "#EFECE6",
+    "text_main": "#231F20",
+    "text_muted": "#635D5C",
+    "text_light": "#8E8887",
+    "border_subtle": "#EBE3D8",
+    "whatsapp_green": "#25D366",
+    "whatsapp_dark": "#128C7E",
+    "phone_accent": "#A35C50"
+  },
+  "layout_and_sections": [
+    {
+      "section_id": "sticky_header",
+      "component_name": "Navbar",
+      "description": "Crystal glass sticky header (bg-white/85 backdrop-blur-xl border-b border-stone-200/60) with Mansi Beauty Care branding, navigation links (Home, About, Services, Bridal, Gallery, Reviews, Location), Phone call CTA, and rose-gold 'Book on WhatsApp' CTA. Includes mobile hamburger drawer with quick actions."
+    },
+    {
+      "section_id": "hero_section",
+      "component_name": "HeroSection",
+      "description": "Asymmetric high-fashion editorial hero. Features trust pill badge '⭐ Top Rated Ladies Beauty Care in Zundal, Ahmedabad', H1 'Your Beauty, Our Expertise', emotional subtext, Dual action CTAs ('Book Appointment on WhatsApp' & 'Call for Inquiry'), Trust stats ticker (1000+ Happy Clients, 15+ Core Services, 100% Hygienic & Sanitized, 8+ Yrs Local Trust), and a luxury framed split visual showcase with Indian bridal glamour & modern salon relaxation."
+    },
+    {
+      "section_id": "about_features",
+      "component_name": "AboutSection",
+      "description": "About with 3 distinct feature cards: 'Professional Care' (Experienced certified cosmetologists & bridal stylists), 'Quality Beauty Services' (Premium international products: L'Oréal, O3+, MAC, Kryolan), and 'Comfortable Experience' (Exclusive serene ladies-only atmosphere with strict hygiene protocols)."
+    },
+    {
+      "section_id": "services_catalog",
+      "component_name": "ServicesSection",
+      "description": "Comprehensive responsive grid of 15 beauty services categorized with interactive filter tabs (All, Makeup & Bridal, Hair Studio, Skin & Facials, Nails & Hands/Feet, Grooming): 1. Bridal Makeup, 2. Party Makeup, 3. Luxury Facial, 4. Skin Cleanup, 5. Hair Spa, 6. Hair Styling, 7. Hair Cut & Blowdry, 8. Hair Color & Highlights, 9. Hair Treatment (Keratin/Smoothening), 10. Honey/Rica Waxing, 11. Threading & Brow Shaping, 12. Spa Manicure, 13. Spa Pedicure, 14. Trendy Nail Art & Gel Extensions, 15. Advanced Skin Care. Each card features duration estimate, highlights, price starting point, and direct 'Book on WhatsApp' deep link pre-filling the service name."
+    },
+    {
+      "section_id": "bridal_masterpiece",
+      "component_name": "BridalFeatureSection",
+      "description": "Full-width editorial bridal suite showcase 'Look Your Best on Your Special Day'. Covers Bridal Packages (Pre-Bridal Glow, Haldi/Mehendi Glam, Wedding Day HD/Airbrush Makeup, Reception Elegance), draping, hair ornaments, jewelry setting, and 'Book Bridal Consultation' WhatsApp trigger."
+    },
+    {
+      "section_id": "why_choose_us",
+      "component_name": "WhyChooseUsSection",
+      "description": "4-pillar value bento grid: 1. Premium & Authentic Brand Products, 2. Dedicated Ladies-Only Serenity & Private Rooms, 3. Personalized Skin & Hair Consultations, 4. Affordable Transparent Luxury in Zundal."
+    },
+    {
+      "section_id": "masonry_gallery",
+      "component_name": "GallerySection",
+      "description": "Interactive filtered masonry gallery with modal zoom viewer. Categories: All, Bridal & Makeup, Hair Studio, Facials & Spa, Nail Art, Salon Ambience. Rich high-res Indian beauty imagery."
+    },
+    {
+      "section_id": "customer_reviews",
+      "component_name": "ReviewsSection",
+      "description": "Curated testimonials with Google 4.9-star rating badge, client photos, verified tag, quote cards for bridal, hair spa, and facial clients from Zundal & Chandkheda. Includes 'Read More Reviews on Google' & 'Leave a Review' links."
+    },
+    {
+      "section_id": "location_and_hours",
+      "component_name": "LocationSection",
+      "description": "Interactive salon destination block: Address card (Zundal, Near Vaishnodevi Circle, Ahmedabad, Gujarat 382421), Opening Hours (Tue-Sun 10:00 AM - 8:00 PM, Mondays by Appointment), Embedded Google Map interactive iframe placeholder, and 3 immediate action buttons: 'Get Directions (Google Maps)', 'Call Now', 'Chat on WhatsApp'."
+    },
+    {
+      "section_id": "appointment_cta",
+      "component_name": "AppointmentCTASection",
+      "description": "High-impact luxury conversion banner 'Ready for Your Beauty Appointment?' with instant booking interactive modal and direct WhatsApp & Call buttons."
+    },
+    {
+      "section_id": "booking_modal",
+      "component_name": "QuickBookingModal",
+      "description": "Interactive appointment form modal enabling visitors to select Service, Preferred Date, Time Slot, and Name, generating an instant pre-filled WhatsApp message ready to send in 1 click."
+    },
+    {
+      "section_id": "footer",
+      "component_name": "Footer",
+      "description": "Editorial 4-column luxury footer with brand story, quick navigation links, popular beauty services list, contact info with local Zundal Ahmedabad SEO schema hints, and social links (Instagram, Facebook, WhatsApp)."
+    },
+    {
+      "section_id": "mobile_sticky_bar",
+      "component_name": "MobileStickyBar",
+      "description": "Floating bottom bar for mobile screens (<768px) with 3 primary direct touch triggers: 'Call Now' (tel:), 'WhatsApp' (direct chat), and 'Book Appointment' (launches WhatsApp booking modal)."
+    }
+  ],
+  "image_urls": {
+    "hero_bridal": "https://images.unsplash.com/photo-1756483560049-e7b2208f99a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxicmlkYWwlMjBtYWtldXAlMjBpbmRpYW4lMjB3ZWRkaW5nfGVufDB8fHx8MTc4NzMxMDg5MHww&ixlib=rb-4.1.0&q=85",
+    "hero_salon_spa": "https://images.unsplash.com/photo-1706795033728-9232ef548a16?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHw0fHxiZWF1dHklMjBzYWxvbiUyMHNwYSUyMHRyZWF0bWVudCUyMGx1eHVyeXxlbnwwfHx8fDE3ODczMTA4OTF8MA&ixlib=rb-4.1.0&q=85",
+    "bridal_feature_large": "https://images.unsplash.com/photo-1587271315307-eaebc181c749?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHxicmlkYWwlMjBtYWtldXAlMjBpbmRpYW4lMjB3ZWRkaW5nfGVufDB8fHx8MTc4NzMxMDg5MHww&ixlib=rb-4.1.0&q=85",
+    "bridal_detail_portrait": "https://images.unsplash.com/photo-1610173826014-d131b02d69ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHw0fHxicmlkYWwlMjBtYWtldXAlMjBpbmRpYW4lMjB3ZWRkaW5nfGVufDB8fHx8MTc4NzMxMDg5MHww&ixlib=rb-4.1.0&q=85",
+    "hair_styling_service": "https://images.unsplash.com/photo-1560869713-7d0a29430803?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxoYWlyJTIwc2Fsb24lMjBzdHlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzg3MzEwODkwfDA&ixlib=rb-4.1.0&q=85",
+    "hair_blowdry_wash": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwyfHxoYWlyJTIwc2Fsb24lMjBzdHlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzg3MzEwODkwfDA&ixlib=rb-4.1.0&q=85",
+    "hair_cut_treatment": "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc2Fsb24lMjBzdHlsaW5nJTIwd29tYW58ZW58MHx8fHwxNzg3MzEwODkwfDA&ixlib=rb-4.1.0&q=85",
+    "facial_spa_head_massage": "https://images.pexels.com/photos/13899861/pexels-photo-13899861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "salon_ambience_chairs": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxiZWF1dHklMjBzYWxvbiUyMHNwYSUyMHRyZWF0bWVudCUyMGx1eHVyeXxlbnwwfHx8fDE3ODczMTA4OTF8MA&ixlib=rb-4.1.0&q=85",
+    "salon_reception_interior": "https://images.pexels.com/photos/7195809/pexels-photo-7195809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  "contact_details_placeholder": {
+    "phone_display": "+91 98765 43210",
+    "phone_dial": "+919876543210",
+    "whatsapp_number": "+919876543210",
+    "whatsapp_default_message": "Hello Mansi Beauty Care, I would like to book an appointment for beauty services in Zundal, Ahmedabad.",
+    "address": "Shop 104, Royal Elegance Complex, Near Vaishnodevi Circle, Zundal, Ahmedabad, Gujarat 382421",
+    "working_hours": "Tuesday to Sunday: 10:00 AM – 8:00 PM (Monday by Appointment)"
+  },
+  "testing_attributes": {
+    "navbar_container": "data-testid='navbar-container'",
+    "book_appointment_nav_btn": "data-testid='nav-book-appointment-btn'",
+    "hero_whatsapp_btn": "data-testid='hero-whatsapp-cta-btn'",
+    "hero_call_btn": "data-testid='hero-call-cta-btn'",
+    "services_category_tabs": "data-testid='services-category-tabs'",
+    "service_card_prefix": "data-testid='service-card-",
+    "service_book_btn_prefix": "data-testid='service-book-btn-",
+    "bridal_consultation_btn": "data-testid='bridal-consultation-btn'",
+    "gallery_filter_prefix": "data-testid='gallery-filter-",
+    "location_directions_btn": "data-testid='location-directions-btn'",
+    "location_call_btn": "data-testid='location-call-btn'",
+    "location_whatsapp_btn": "data-testid='location-whatsapp-btn'",
+    "mobile_sticky_call": "data-testid='mobile-sticky-call-btn'",
+    "mobile_sticky_whatsapp": "data-testid='mobile-sticky-whatsapp-btn'",
+    "mobile_sticky_book": "data-testid='mobile-sticky-book-btn'",
+    "booking_modal_submit": "data-testid='booking-modal-submit-btn'"
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Follow luxury quiet-elegance beauty aesthetics: ivory/cream canvas (#FDFBF7), rose gold/terracotta (#C58B7E), charcoal (#231F20) text.",
+    "Do NOT use default pure black or saturated flat blue/purple SaaS gradients. Use warm soft drop-shadows, delicate 1px border highlights, and refined typography.",
+    "Include all 15 services required by the client prompt with tailored descriptions, prices, durations, and direct WhatsApp links.",
+    "Ensure all interactive buttons, links, tabs, and modals have explicit data-testid attributes.",
+    "Provide a smooth booking modal experience that generates customized WhatsApp chat messages for seamless client conversion.",
+    "Always maintain accessibility with high contrast text against soft cream backgrounds."
+  ]
+}

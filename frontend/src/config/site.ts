@@ -1,0 +1,53 @@
+// ============================================================
+// MANSI BEAUTY CARE — BUSINESS CONFIGURATION
+// Update the values below with the salon's real details.
+// Anything marked PLACEHOLDER must be replaced before go-live.
+// ============================================================
+
+export const SITE = {
+  name: "Mansi Beauty Care",
+  tagline: "Your Beauty, Our Expertise",
+  area: "Zundal",
+  city: "Ahmedabad",
+  state: "Gujarat",
+  country: "India",
+
+  // PLACEHOLDER — replace with the real phone number (with country code, digits only in phoneDial)
+  phoneDisplay: "+91 XXXXX XXXXX",
+  phoneDial: "+91XXXXXXXXXX",
+
+  // PLACEHOLDER — replace with the real WhatsApp number (country code + number, no "+" or spaces, e.g. "919876543210")
+  whatsappNumber: "91XXXXXXXXXX",
+
+  // PLACEHOLDER — replace with the final domain when the site goes live
+  canonicalUrl: "https://www.mansibeautycare.com/",
+
+  // PLACEHOLDER — replace with the salon's real Google Maps listing URL
+  googleMapsUrl:
+    "https://www.google.com/maps/search/?api=1&query=Mansi+Beauty+Care+Zundal+Ahmedabad",
+  googleReviewsUrl:
+    "https://www.google.com/search?q=Mansi+Beauty+Care+Zundal+Ahmedabad+reviews",
+
+  // PLACEHOLDER — replace with real social profile URLs
+  instagramUrl: "#",
+  facebookUrl: "#",
+};
+
+export const DEFAULT_WA_MESSAGE =
+  "Hello Mansi Beauty Care, I would like to book an appointment for beauty services in Zundal, Ahmedabad.";
+
+export const waLink = (message: string = DEFAULT_WA_MESSAGE): string =>
+  `https://wa.me/${SITE.whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+export const telLink = (): string => `tel:${SITE.phoneDial}`;
+
+export const IMAGES = {
+  heroBridal:
+    "https://images.unsplash.com/photo-1756483560049-e7b2208f99a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxicmlkYWwlMjBtYWtldXAlMjBpbmRpYW4lMjB3ZWRkaW5nfGVufDB8fHx8MTc4NzMxMDg5MHww&ixlib=rb-4.1.0&q=85",
+  heroSalon:
+    "https://images.unsplash.com/photo-1706795033728-9232ef548a16?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHw0fHxiZWF1dHklMjBzYWxvbiUyMHNwYSUyMHRyZWF0bWVudCUyMGx1eHVyeXxlbnwwfHx8fDE3ODczMTA4OTF8MA&ixlib=rb-4.1.0&q=85",
+  bridalLarge:
+    "https://images.unsplash.com/photo-1587271315307-eaebc181c749?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHxicmlkYWwlMjBtYWtldXAlMjBpbmRpYW4lMjB3ZWRkaW5nfGVufDB8fHx8MTc4NzMxMDg5MHww&ixlib=rb-4.1.0&q=85",
+  bridalPortrait:
+    "https://images.unsplash.com/photo-1610173826014-d131b02d69ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHw0fHxicmlkYWwlMjBtYWtldXAlMjBpbmRpYW4lMjB3ZWRkaW5nfGVufDB8fHx8MTc4NzMxMDg5MHww&ixlib=rb-4.1.0&q=85",
+};
