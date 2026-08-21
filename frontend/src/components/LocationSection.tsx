@@ -25,8 +25,12 @@ export const LocationSection = () => (
               {SITE.area}, {SITE.city}, {SITE.state}, {SITE.country}
             </address>
             <p className="mt-4 text-sm leading-relaxed text-[#8E8887]">
-              Easy to reach from Chandkheda, Motera and Vaishnodevi Circle. Exact shop
-              address and timings will be updated here soon.
+              Easy to reach from Chandkheda, Motera and Vaishnodevi Circle. Call or
+              WhatsApp us on{" "}
+              <a href={telLink()} className="font-semibold text-rosegold-deep">
+                {SITE.phoneDisplay}
+              </a>{" "}
+              — exact shop address and timings will be updated here soon.
             </p>
 
             <div className="mt-auto flex flex-col gap-3 pt-8 sm:flex-row sm:flex-wrap">

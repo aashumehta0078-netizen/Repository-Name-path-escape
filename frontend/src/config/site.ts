@@ -12,12 +12,10 @@ export const SITE = {
   state: "Gujarat",
   country: "India",
 
-  // PLACEHOLDER — replace with the real phone number (with country code, digits only in phoneDial)
-  phoneDisplay: "+91 XXXXX XXXXX",
-  phoneDial: "+91XXXXXXXXXX",
+  phoneDisplay: "+91 74340 98629",
+  phoneDial: "+917434098629",
 
-  // PLACEHOLDER — replace with the real WhatsApp number (country code + number, no "+" or spaces, e.g. "919876543210")
-  whatsappNumber: "91XXXXXXXXXX",
+  whatsappNumber: "917434098629",
 
   // PLACEHOLDER — replace with the final domain when the site goes live
   canonicalUrl: "https://www.mansibeautycare.com/",

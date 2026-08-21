@@ -95,8 +95,14 @@ export const Footer = () => (
               <MessageCircle className="h-4 w-4" />
             </a>
           </div>
-          <p className="mt-4 text-xs leading-relaxed text-white/50">
-            Phone number, exact address and social profiles will be updated here once
+          <p className="mt-4 text-sm leading-relaxed text-white/50">
+            Call or WhatsApp:{" "}
+            <a href={`tel:${SITE.phoneDial}`} className="font-semibold text-white/80 transition-colors hover:text-white">
+              {SITE.phoneDisplay}
+            </a>
+          </p>
+          <p className="mt-2 text-xs leading-relaxed text-white/50">
+            Exact shop address, timings and social profiles will be updated here once
             shared by the salon.
           </p>
         </div>

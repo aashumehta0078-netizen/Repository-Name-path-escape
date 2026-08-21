@@ -38,7 +38,7 @@ Modern, elegant, premium responsive website for "Mansi Beauty Care", a ladies be
 - TypeScript conversion of the scaffold (tsconfig, index.tsx, App.tsx, typescript@5 pinned)
 
 ## Placeholders the owner must replace
-- Phone number + WhatsApp number (`src/config/site.ts`) — currently `+91 XXXXX XXXXX`
+- ~~Phone + WhatsApp number~~ — DONE (2026-08-21): +91 74340 98629 wired into site.ts, JSON-LD, footer and location section
 - Exact shop address and opening hours
 - Real customer reviews (`src/data/reviews.ts`)
 - Real salon photos (`src/data/gallery.ts`)
@@ -46,7 +46,7 @@ Modern, elegant, premium responsive website for "Mansi Beauty Care", a ladies be
 - Final live domain in canonical/OG/sitemap/robots/JSON-LD
 
 ## Backlog
-- P0: Owner supplies real phone/WhatsApp/address/hours → wire into site.ts + JSON-LD
+- P0: Owner supplies exact shop address + opening hours → wire into site.ts, Location section and JSON-LD
 - P1: Replace stock gallery/hero images with real salon photos
 - P1: Replace sample reviews with real Google reviews
 - P2: Service pricing table (once owner shares prices)
