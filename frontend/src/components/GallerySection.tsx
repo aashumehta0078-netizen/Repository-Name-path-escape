@@ -1,13 +1,6 @@
-import { useMemo, useState, type MouseEvent } from "react";
+import { useMemo, useState } from "react";
 import { GALLERY_ITEMS, GALLERY_CATEGORIES, type GalleryCategory } from "@/data/gallery";
 import { Reveal } from "@/components/Reveal";
-import { ChapterHeading } from "@/components/ChapterHeading";
-
-const handleSpotlight = (e: MouseEvent<HTMLElement>) => {
-  const rect = e.currentTarget.getBoundingClientRect();
-  e.currentTarget.style.setProperty("--mx", `${e.clientX - rect.left}px`);
-  e.currentTarget.style.setProperty("--my", `${e.clientY - rect.top}px`);
-};
 
 export const GallerySection = () => {
   const [active, setActive] = useState<"All" | GalleryCategory>("All");
@@ -21,7 +14,12 @@ export const GallerySection = () => {
     <section id="gallery" className="bg-cream py-16 md:py-24 scroll-mt-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Reveal className="mx-auto max-w-2xl text-center">
-          <ChapterHeading index="04" overline="Our Work" title="Gallery" />
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-rosegold-deep">
+            Our Work
+          </p>
+          <h2 className="mt-3 font-serif text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-charcoal">
+            Gallery
+          </h2>
           <p className="mt-4 text-base leading-relaxed text-[#635D5C]">
             A glimpse of the looks and moments we create at our beauty salon in Zundal.
           </p>
@@ -52,7 +50,6 @@ export const GallerySection = () => {
           {visible.map((item, i) => (
             <figure
               key={item.src}
-              onMouseMove={handleSpotlight}
               className="group relative break-inside-avoid overflow-hidden rounded-3xl shadow-card"
             >
               <img
@@ -62,14 +59,6 @@ export const GallerySection = () => {
                 className={`w-full object-cover transition-transform duration-500 group-hover:scale-105 ${
                   i % 3 === 0 ? "aspect-[3/4]" : i % 3 === 1 ? "aspect-square" : "aspect-[4/5]"
                 }`}
-              />
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-                style={{
-                  background:
-                    "radial-gradient(220px circle at var(--mx, 50%) var(--my, 50%), rgba(255,255,255,0.28), transparent 70%)",
-                }}
               />
               <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-charcoal/70 to-transparent px-4 pb-3 pt-10 text-xs font-semibold uppercase tracking-wider text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                 {item.category}

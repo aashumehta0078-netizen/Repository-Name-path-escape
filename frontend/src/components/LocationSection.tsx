@@ -1,13 +1,17 @@
 import { MapPin, Navigation, Phone, MessageCircle } from "lucide-react";
 import { SITE, telLink, waLink } from "@/config/site";
 import { Reveal } from "@/components/Reveal";
-import { ChapterHeading } from "@/components/ChapterHeading";
 
 export const LocationSection = () => (
   <section id="contact" className="bg-cream py-16 md:py-24 scroll-mt-24">
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <Reveal className="mx-auto max-w-2xl text-center">
-        <ChapterHeading index="06" overline="Find Us" title="Visit Mansi Beauty Care" />
+        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-rosegold-deep">
+          Find Us
+        </p>
+        <h2 className="mt-3 font-serif text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-charcoal">
+          Visit Mansi Beauty Care
+        </h2>
       </Reveal>
 
       <div className="mt-12 grid gap-8 lg:grid-cols-2">

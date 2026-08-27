@@ -1,6 +1,5 @@
 import { HeartHandshake, Sparkles, Armchair } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
-import { ChapterHeading } from "@/components/ChapterHeading";
 
 const FEATURES = [
   {
@@ -25,7 +24,10 @@ export const AboutSection = () => (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_1fr]">
         <Reveal>
-          <ChapterHeading index="01" overline="About Us" title="Welcome to Mansi Beauty Care" align="left" />
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-rosegold-deep">About Us</p>
+          <h2 className="mt-3 font-serif text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-charcoal">
+            Welcome to Mansi Beauty Care
+          </h2>
           <p className="mt-5 text-base leading-relaxed text-[#635D5C]">
             Mansi Beauty Care is a ladies beauty parlour in Zundal, Ahmedabad, offering
             quality beauty and personal care services in a comfortable and welcoming

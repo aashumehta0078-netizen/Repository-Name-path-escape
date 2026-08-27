@@ -1,7 +1,4 @@
-import { motion } from "framer-motion";
-import type { ReactNode } from "react";
-
-const EASE: [number, number, number, number] = [0.22, 1, 0.36, 1];
+import { useEffect, useRef, useState, type ReactNode } from "react";
 
 interface RevealProps {
   children: ReactNode;
@@ -9,14 +6,35 @@ interface RevealProps {
   delay?: number;
 }
 
-export const Reveal = ({ children, className = "", delay = 0 }: RevealProps) => (
-  <motion.div
-    className={className}
-    initial={{ opacity: 0, y: 36 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, margin: "-70px" }}
-    transition={{ duration: 0.9, delay: delay / 1000, ease: EASE }}
-  >
-    {children}
-  </motion.div>
-);
+export const Reveal = ({ children, className = "", delay = 0 }: RevealProps) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.12 },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div
+      ref={ref}
+      style={{ transitionDelay: `${delay}ms` }}
+      className={`transition-[opacity,transform] duration-700 ease-out ${
+        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+      } ${className}`}
+    >
+      {children}
+    </div>
+  );
+};

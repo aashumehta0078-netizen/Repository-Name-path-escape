@@ -2,13 +2,17 @@ import { Star, Quote, ExternalLink } from "lucide-react";
 import { REVIEWS } from "@/data/reviews";
 import { SITE } from "@/config/site";
 import { Reveal } from "@/components/Reveal";
-import { ChapterHeading } from "@/components/ChapterHeading";
 
 export const ReviewsSection = () => (
   <section id="reviews" className="bg-ivory py-16 md:py-24 scroll-mt-24">
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <Reveal className="mx-auto max-w-2xl text-center">
-        <ChapterHeading index="05" overline="Reviews" title="What Our Customers Say" />
+        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-rosegold-deep">
+          Reviews
+        </p>
+        <h2 className="mt-3 font-serif text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-charcoal">
+          What Our Customers Say
+        </h2>
       </Reveal>
 
       <div className="mt-12 grid gap-6 md:grid-cols-3">
