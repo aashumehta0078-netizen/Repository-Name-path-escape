@@ -2,6 +2,7 @@ import { BookingProvider } from "@/components/BookingContext";
 import { QuickBookingModal } from "@/components/QuickBookingModal";
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
+import { Marquee } from "@/components/Marquee";
 import { AboutSection } from "@/components/AboutSection";
 import { ServicesSection } from "@/components/ServicesSection";
 import { WhyChooseUsSection } from "@/components/WhyChooseUsSection";
@@ -24,6 +25,7 @@ export default function App() {
         <Navbar />
         <main>
           <HeroSection />
+          <Marquee />
           <AboutSection />
           <ServicesSection />
           <WhyChooseUsSection />

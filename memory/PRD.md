@@ -54,5 +54,12 @@ Modern, elegant, premium responsive website for "Mansi Beauty Care", a ladies be
 - P2: Real Google Maps embed with exact salon pin
 - P2: Instagram feed section
 
+## Feb 2026 — Motion upgrade rolled back, then hero/header restored per screenshot reference
+- Rolled back the earlier "Award-Level Motion" full-site redesign to the pre-motion checkpoint (kept real phone/WhatsApp +91 74340 98629, real reviews, real Instagram link). Removed unused `lenis` dependency and deleted `Marquee.tsx`/`ChapterHeading.tsx`.
+- User then shared a screenshot of that old motion-era hero (rotating circular text badge, arch-shaped bridal photo with parallax, ghost "Mansi" watermark, floating "Beauty Salon" tag + spa photo, services marquee strip) and asked to recreate ONLY the header/hero exactly as shown.
+- Restored `HeroSection.tsx` (framer-motion parallax/reveal animations, rotating SVG text-path badge, ghost signature watermark) and re-created `Marquee.tsx`; wired `<Marquee />` back into `App.tsx` right after `<HeroSection />`. Re-added the `marquee` keyframe/animation to `tailwind.config.js`.
+- Scope intentionally limited to hero/header only — did NOT bring back ChapterHeading numbering, Lenis smooth scroll, or grain overlay elsewhere on the site.
+- Verified: webpack compiles clean, no console errors, desktop screenshot matches the reference image; booking modal and WhatsApp/Call links untouched and still point to the real number.
+
 ## Test Credentials
 None — no authentication on this site.
