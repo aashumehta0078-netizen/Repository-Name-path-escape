@@ -1,31 +1,25 @@
-// SAMPLE REVIEWS — these are placeholders, NOT real customer reviews.
-// Replace with genuine reviews from Mansi Beauty Care customers
-// (e.g. from the salon's Google Business Profile) before go-live.
+// Real customer reviews for Mansi Beauty Care.
 
 export interface Review {
   name: string;
   text: string;
   rating: number;
-  sample: true;
 }
 
 export const REVIEWS: Review[] = [
   {
-    name: "Sample Customer",
-    text: "Sample review — replace with a real customer review. A happy bridal client might describe her makeup experience, the staff's care and how the look lasted through the wedding day.",
+    name: "Annu Gautam",
+    text: "Had a wonderful experience! She did my waxing and haircut so perfectly. Very neat, hygienic, and professional work, and I absolutely loved the results. She is also very sweet and makes you feel comfortable throughout. Highly recommended for anyone looking for quality beauty services!",
     rating: 5,
-    sample: true,
   },
   {
-    name: "Sample Customer",
-    text: "Sample review — replace with a real customer review. A regular client might mention the clean, comfortable salon environment and friendly service in Zundal.",
+    name: "Jiya Patel",
+    text: "Really happy with the service and overall experience. Great attention to detail and very friendly!",
     rating: 5,
-    sample: true,
   },
   {
-    name: "Sample Customer",
-    text: "Sample review — replace with a real customer review. A hair spa or facial client might share how relaxed she felt and how great the results were.",
+    name: "Mansi Sharma",
+    text: "Very good service. She takes great care of my skin and is very dedicated to her work. Surely recommended.",
     rating: 5,
-    sample: true,
   },
 ];

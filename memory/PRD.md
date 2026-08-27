@@ -40,8 +40,8 @@ Modern, elegant, premium responsive website for "Mansi Beauty Care", a ladies be
 ## Placeholders the owner must replace
 - ~~Phone + WhatsApp number~~ — DONE (2026-08-21): +91 74340 98629 wired into site.ts, JSON-LD, footer and location section
 - Exact shop address and opening hours
-- Real customer reviews (`src/data/reviews.ts`)
-- Real salon photos (`src/data/gallery.ts`)
+- ~~Real customer reviews~~ — DONE (2026-08-27): Annu Gautam, Jiya Patel, Mansi Sharma reviews live, sample labels removed
+- Real salon photos (`src/data/gallery.ts`) — waiting for owner to share photos
 - Instagram / Facebook URLs (`src/config/site.ts`)
 - Final live domain in canonical/OG/sitemap/robots/JSON-LD
 

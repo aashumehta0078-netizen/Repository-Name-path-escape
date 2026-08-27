@@ -13,9 +13,6 @@ export const ReviewsSection = () => (
         <h2 className="mt-3 font-serif text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-charcoal">
           What Our Customers Say
         </h2>
-        <p className="mt-4 text-sm italic text-[#8E8887]">
-          The reviews below are samples — real customer reviews will be added here soon.
-        </p>
       </Reveal>
 
       <div className="mt-12 grid gap-6 md:grid-cols-3">
@@ -32,11 +29,8 @@ export const ReviewsSection = () => (
                 ))}
               </div>
               <p className="mt-4 flex-1 text-sm leading-relaxed text-[#635D5C]">{review.text}</p>
-              <footer className="mt-5 flex items-center justify-between border-t border-[#EBE3D8] pt-4">
-                <span className="text-sm font-semibold text-charcoal">{review.name}</span>
-                <span className="rounded-full bg-champagne px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-rosegold-deep">
-                  Sample
-                </span>
+              <footer className="mt-5 border-t border-[#EBE3D8] pt-4">
+                <span className="text-sm font-semibold text-charcoal">— {review.name}</span>
               </footer>
             </article>
           </Reveal>
