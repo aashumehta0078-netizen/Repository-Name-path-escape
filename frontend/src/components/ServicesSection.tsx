@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { SERVICES, SERVICE_CATEGORIES, type ServiceCategory } from "@/data/services";
 import { useBooking } from "@/components/BookingContext";
 import { Reveal } from "@/components/Reveal";
+import { ChapterHeading } from "@/components/ChapterHeading";
 
 export const ServicesSection = () => {
   const [active, setActive] = useState<"All" | ServiceCategory>("All");
@@ -19,12 +20,7 @@ export const ServicesSection = () => {
     <section id="services" className="bg-cream py-16 md:py-24 scroll-mt-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Reveal className="mx-auto max-w-2xl text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-rosegold-deep">
-            Beauty Services in Zundal
-          </p>
-          <h2 className="mt-3 font-serif text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-charcoal">
-            Our Beauty Services
-          </h2>
+          <ChapterHeading index="02" overline="Beauty Services in Zundal" title="Our Beauty Services" />
           <p className="mt-4 text-base leading-relaxed text-[#635D5C]">
             Complete beauty care under one roof — from bridal makeup and hair styling
             to facials, waxing, nails and skin care at our beauty parlour in Zundal.

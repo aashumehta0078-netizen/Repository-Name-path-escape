@@ -31,7 +31,7 @@ export const SITE = {
 };
 
 export const DEFAULT_WA_MESSAGE =
-  "Hello Mansi Beauty Care, I would like to book an appointment for beauty services in Zundal, Ahmedabad.";
+  "Hello Mansi, I would like to book an appointment at Mansi Beauty Care, Zundal.";
 
 export const waLink = (message: string = DEFAULT_WA_MESSAGE): string =>
   `https://wa.me/${SITE.whatsappNumber}?text=${encodeURIComponent(message)}`;

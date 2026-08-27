@@ -36,6 +36,18 @@ Modern, elegant, premium responsive website for "Mansi Beauty Care", a ladies be
 - Quick booking modal → generates pre-filled WhatsApp message (name, service, date, time)
 - SEO: unique title, meta description, OG tags, canonical placeholder, BeautySalon JSON-LD, one H1, semantic H2/H3, robots.txt, sitemap.xml, natural local keywords (Zundal, Chandkheda, Motera, Vaishnodevi Circle, Ahmedabad)
 - TypeScript conversion of the scaffold (tsconfig, index.tsx, App.tsx, typescript@5 pinned)
+- Real phone/WhatsApp wired: +91 74340 98629 (site.ts, JSON-LD, footer, location)
+- Real reviews: Annu Gautam, Jiya Patel, Mansi Sharma (sample labels removed)
+- Instagram linked: instagram.com/mansi_beauty_care_zundal (footer)
+- Booking modal personalized: title "Book with Mansi", WhatsApp greeting "Hello Mansi, ..."
+
+## Motion & Art Direction Upgrade (2026-08-27)
+- Lenis smooth momentum scrolling with custom anchor handling (offset for fixed header)
+- framer-motion: Reveal component now motion-based (whileInView), hero has masked line-by-line headline reveal, staggered fade-ins, parallax on hero images (useScroll/useTransform)
+- Hero: giant outlined ghost "Mansi" word, arch-clipped bridal image, rotating circular SVG text badge, floating card
+- Slow editorial marquee strip (services, alternating Playfair/Bodoni italic) between hero and about
+- Numbered manifesto chapters (01–06 ghost-outlined numerals) via ChapterHeading component on all sections
+- Gallery spotlight hover (radial gradient follows cursor), film-grain overlay across site
 
 ## Placeholders the owner must replace
 - ~~Phone + WhatsApp number~~ — DONE (2026-08-21): +91 74340 98629 wired into site.ts, JSON-LD, footer and location section

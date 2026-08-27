@@ -1,5 +1,6 @@
 import { UserRound, BadgeCheck, Sparkles, ShieldCheck } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
+import { ChapterHeading } from "@/components/ChapterHeading";
 
 const PILLARS = [
   {
@@ -28,12 +29,7 @@ export const WhyChooseUsSection = () => (
   <section className="bg-ivory py-16 md:py-24">
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <Reveal className="mx-auto max-w-2xl text-center">
-        <p className="text-xs font-semibold uppercase tracking-[0.22em] text-rosegold-deep">
-          The Mansi Difference
-        </p>
-        <h2 className="mt-3 font-serif text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-charcoal">
-          Why Choose Mansi Beauty Care?
-        </h2>
+        <ChapterHeading index="03" overline="The Mansi Difference" title="Why Choose Mansi Beauty Care?" />
       </Reveal>
 
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

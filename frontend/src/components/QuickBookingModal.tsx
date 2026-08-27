@@ -34,7 +34,7 @@ export const QuickBookingModal = ({ open, defaultService, onClose }: QuickBookin
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     const lines = [
-      "Hello Mansi Beauty Care, I would like to book an appointment.",
+      "Hello Mansi, I would like to book an appointment.",
       name && `Name: ${name}`,
       service && `Service: ${service}`,
       date && `Preferred date: ${date}`,
@@ -60,7 +60,7 @@ export const QuickBookingModal = ({ open, defaultService, onClose }: QuickBookin
       >
         <div className="flex items-start justify-between">
           <div>
-            <h2 className="font-serif text-2xl font-semibold text-charcoal">Book an Appointment</h2>
+            <h2 className="font-serif text-2xl font-semibold text-charcoal">Book with Mansi</h2>
             <p className="mt-1 text-sm text-[#635D5C]">
               Fill this in and we'll open WhatsApp with your booking ready to send.
             </p>
