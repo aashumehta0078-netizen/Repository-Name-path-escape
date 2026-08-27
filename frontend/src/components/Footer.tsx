@@ -70,7 +70,9 @@ export const Footer = () => (
           <div className="mt-4 flex gap-3">
             <a
               href={SITE.instagramUrl}
-              aria-label="Mansi Beauty Care on Instagram (link coming soon)"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Mansi Beauty Care on Instagram"
               data-testid="footer-social-instagram"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white/80 transition-colors hover:border-rosegold hover:text-rosegold-soft"
             >
@@ -102,8 +104,8 @@ export const Footer = () => (
             </a>
           </p>
           <p className="mt-2 text-xs leading-relaxed text-white/50">
-            Exact shop address, timings and social profiles will be updated here once
-            shared by the salon.
+            Exact shop address and timings will be updated here once shared by the
+            salon.
           </p>
         </div>
       </div>

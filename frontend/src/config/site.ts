@@ -26,8 +26,7 @@ export const SITE = {
   googleReviewsUrl:
     "https://www.google.com/search?q=Mansi+Beauty+Care+Zundal+Ahmedabad+reviews",
 
-  // PLACEHOLDER — replace with real social profile URLs
-  instagramUrl: "#",
+  instagramUrl: "https://www.instagram.com/mansi_beauty_care_zundal/",
   facebookUrl: "#",
 };
 

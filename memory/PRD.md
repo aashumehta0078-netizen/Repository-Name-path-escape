@@ -42,7 +42,8 @@ Modern, elegant, premium responsive website for "Mansi Beauty Care", a ladies be
 - Exact shop address and opening hours
 - ~~Real customer reviews~~ — DONE (2026-08-27): Annu Gautam, Jiya Patel, Mansi Sharma reviews live, sample labels removed
 - Real salon photos (`src/data/gallery.ts`) — waiting for owner to share photos
-- Instagram / Facebook URLs (`src/config/site.ts`)
+- Instagram — DONE (2026-08-27): https://www.instagram.com/mansi_beauty_care_zundal/ wired into footer icon
+- Facebook URL (`src/config/site.ts`) — still placeholder
 - Final live domain in canonical/OG/sitemap/robots/JSON-LD
 
 ## Backlog
